@@ -50,16 +50,7 @@
                 </p>
             </div>
 
-            <!-- Right Image Card -->
-            <div class="relative h-[500px] flex items-center justify-center">
-                <div class="relative w-full max-w-md aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border border-white/10">
-                    <img 
-                        src="/generated/image-a-close-up-of-a-smartphone-screen-showin-1771882430156-0.webp" 
-                        alt="Reset app interface" 
-                        class="w-full h-full object-cover"
-                    />
-                </div>
-            </div>
+            <!-- Right side intentionally empty -->
         </div>
     </div>
 </section>
