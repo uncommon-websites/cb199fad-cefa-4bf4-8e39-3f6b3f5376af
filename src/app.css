@@ -1,28 +1,35 @@
 @import "tailwindcss";
 
 @theme {
-	/* Colors */
-	--color-gray-50: #f9fafb;
-	--color-gray-100: #f3f4f6;
-	--color-gray-200: #e5e7eb;
-	--color-gray-300: #d1d5db;
-	--color-gray-400: #9ca3af;
-	--color-gray-500: #6b7280;
-	--color-gray-600: #4b5563;
-	--color-gray-700: #374151;
-	--color-gray-800: #1f2937;
-	--color-gray-900: #111827;
-	--color-gray-950: #030712;
+	/* Gray Palette */
+	--color-gray-50: oklch(0.985 0.001 106.423);
+	--color-gray-100: oklch(0.97 0.001 106.424);
+	--color-gray-200: oklch(0.923 0.003 48.717);
+	--color-gray-300: oklch(0.869 0.005 56.366);
+	--color-gray-400: oklch(0.709 0.01 56.259);
+	--color-gray-500: oklch(0.553 0.013 58.071);
+	--color-gray-600: oklch(0.444 0.011 73.639);
+	--color-gray-700: oklch(0.374 0.01 67.558);
+	--color-gray-800: oklch(0.268 0.007 34.298);
+	--color-gray-900: oklch(0.216 0.006 56.043);
+	--color-gray-950: oklch(0.147 0.004 49.25);
 
-    /* Seed Brand Colors */
-    --color-seed-dark: #1a3026;
-    --color-seed-darker: #13241c;
-    --color-seed-card: #243e32;
-    --color-seed-lime: #dcf09e;
-    --color-seed-beige: #f2f2ed;
-    --color-seed-black: #191919;
-    --color-seed-white: #ffffff;
-    --color-seed-green-hover: #2a4a3b;
+    /* Reset Brand Colors */
+    --color-primary-50: oklch(0.977 0.013 236.62);
+    --color-primary-100: oklch(0.951 0.026 236.824);
+    --color-primary-200: oklch(0.901 0.058 230.902);
+    --color-primary-300: oklch(0.828 0.111 230.318);
+    --color-primary-400: oklch(0.746 0.16 232.661);
+    --color-primary-500: oklch(0.685 0.169 237.323);
+    --color-primary-600: oklch(0.588 0.158 241.966);
+    --color-primary-700: oklch(0.5 0.134 242.749);
+    --color-primary-800: oklch(0.443 0.11 240.79);
+    --color-primary-900: oklch(0.391 0.09 240.876);
+    --color-primary-950: oklch(0.293 0.066 243.157);
+
+    --color-reset-black: #000000;
+    --color-reset-white: #ffffff;
+    --color-reset-accent: var(--color-primary-500);
 
 	--font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
@@ -31,6 +38,7 @@
     body {
         font-family: var(--font-sans);
         -webkit-font-smoothing: antialiased;
-        color: var(--color-seed-black);
+        color: var(--color-reset-black);
+        background-color: var(--color-reset-white);
     }
 }
